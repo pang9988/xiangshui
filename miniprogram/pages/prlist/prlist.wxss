@@ -1,0 +1,39 @@
+.daohan{
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+}
+.danlist{
+  width:100rpx;
+  height:50rpx;
+  line-height:50rpx;
+  text-align:center;
+  font-size:30rpx;
+}
+.danlist1{
+  color:rgb(236, 167, 76);
+  font-size:30rpx;
+  border-bottom:5rpx solid rgb(236, 167, 76);
+}
+.meide{
+  display:flex;
+  flex-direction: column;
+}
+.aiai{
+  display:flex;
+}
+.imgtou{
+  width:30rpx;
+  height:30rpx;
+}
+/* 商品内容 */
+.contentlist{
+  display:flex; padding:25rpx;
+}
+.imglist{
+  width:230rpx;height:230rpx;  border-radius:8rpx;
+}
+.textlr{
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,23 @@
+
+<view class='classTop'>
+  <!-- 左边标签 -->
+  <view class="classLeft">
+    <van-badge-group active="{{ active }}" bindchange="classActive">
+      <van-badge wx:for="{{classRm}}" title="{{item.name}}" info="{{item.info}}"  wx:key="index"/>
+    </van-badge-group>
+  </view>
+  
+  <!-- 右边内容 -->
+  <view class='classWz'>
+    <view class='classRight'>
+      <view wx:for="{{classDataList}}" wx:key="index" bindtap='classSKIP'>
+        <view class='classRightImg'>
+          <image src='{{item.img}}'></image>
+        </view>
+        <view class='classRightText'>{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+
+
+</view>

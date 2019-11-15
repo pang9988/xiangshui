@@ -1,0 +1,46 @@
+
+<view tyle="background:#fff;">
+<van-search value="{{ value }}"   show-action bind:search="onSearch" placeholder="根好奇 连接好奇的鼻子" />
+<!-- 导航栏 -->
+<view class="daohan">
+ <view data-idx="1" class="danlist {{_num==1 ? 'danlist1':''}}" bindtap="daoClick">综合</view>
+ <view data-idx="2" class=" aiai danlist {{_num==2 ? 'danlist1':''}}" bindtap="daoClick">销量
+ <view class="meide">
+<image class="imgtou" src="{{vu ? '../../images/jiantou11.png' : '../../images/jiantou_2.png' }}"></image>
+<image class="imgtou" src="{{vu ? '../../images/jiantou22.png' : '../../images/jiantou_1.png'}}"></image>
+ </view>
+ </view>
+ <view data-idx="3" class="aiai danlist {{_num==3 ? 'danlist1':''}}" bindtap="daoClick">价格
+  <view class="meide">
+<image  class="imgtou" src="{{vu1 ? '../../images/jiantou11.png' : '../../images/jiantou_2.png' }}"></image>
+<image  class="imgtou" src="{{vu1 ? '../../images/jiantou22.png' : '../../images/jiantou_1.png'}}"></image>
+ </view>
+ </view>
+ <view data-idx="4" class="danlist {{_num==4 ? 'danlist1':''}}" bindtap="daoClick">新品</view>
+ <view data-idx="5" class="danlist {{_num==5 ? 'danlist1':''}}" bindtap="daoClick">筛选</view>
+</view>
+ <!-- 下面的 -->
+ <view hidden="{{_num!=1}}">
+  <view class="contentlist" wx:for="{{prlist}}" wx:key="{{index}}">
+  <view >
+     <image class="imglist"  src="{{item.img}}"></image>
+  </view>
+  <view class="textlist" style="margin-left:25rpx;">
+    <view class="font30">{{item.text}}</view>
+    <view>{{item.text1}}</view>
+    <view style="height:50rpx"></view>
+    <view class="textlr">
+      <text class="colororange font30">¥{{item.price}}</text>
+      <text class="font20">已售{{item.show}}</text>
+    </view>
+  </view>
+  </view>
+  <view style="height:10rpx;"></view>
+ </view>
+ <view hidden="{{_num!=2}}">我是2</view>
+ <view hidden="{{_num!=3}}">我是3</view>
+ <view hidden="{{_num!=4}}">我是4</view>
+
+
+</view>
+

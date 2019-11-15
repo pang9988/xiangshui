@@ -1,0 +1,114 @@
+page{
+  background: #f1f1f3;
+}
+/* 用户信息 */
+.topBg{
+  width: 100%;
+  height: 550rpx;
+  background: #131313;
+  position: relative;
+}
+.topBg::before{
+  content: "";
+  display: table
+}
+.topUser{
+  text-align: center;
+  margin-top: 60rpx;
+}
+.userIcon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius:150rpx; 
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.userName{
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  color: #a0a0a1;
+}
+
+/* 优惠券/我喜欢 */
+.couPon{
+  margin-top:45rpx;
+  display: flex;
+  justify-content: space-around; 
+}
+.couPon>view{
+  width: 50%;
+  text-align: center;
+}
+.couPon>view view{
+  color: #fff;
+  font-size: 45rpx;
+  font-weight: 600;
+}
+
+.couPon>view .couPonT1{
+  font-size:30rpx; 
+  color: #a0a0a1;
+}
+
+/*我的订单*/
+.myCart{
+  width:95%;
+  height: 250rpx;
+  position: absolute;
+  top: 450rpx;
+  left: 2.5%;
+  background: #fff;
+  /* border: 1px solid #f00; */
+  border-radius:5rpx; 
+}
+
+.mymyCart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15rpx 10rpx 10rpx 15rpx; 
+}
+.mymyCart view{
+  font-size: 35rpx;
+}
+
+.myCartList{
+  display: flex;
+  justify-content: space-around;
+  margin-top:25rpx; 
+
+}
+.myCartList>view{
+  text-align: center;
+}
+.myCartList>view view{
+  font-size: 25rpx;
+  color: #969ba3;
+}
+/*结束列表*/
+.endBg{
+  width: 100%;
+  background: #f1f1f3;
+  padding-bottom:2.5%; 
+}
+.endEmpty{
+  height: 170rpx;
+}
+.endList{
+  width:95%;
+  margin-left: 2.5%;
+  background: #fff;
+  border-radius:5rpx; 
+}
+.endList>view{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15rpx 10rpx 15rpx 20rpx;
+   
+}
+.endList>view view{
+  font-size:30rpx; 
+}
+

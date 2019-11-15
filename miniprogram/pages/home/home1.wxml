@@ -1,0 +1,119 @@
+<view class="{{scrollTop>500 ? 'topfff' : 'topshow'}}"></view>
+<view>
+<!-- 页头搜索框 -->
+<view>
+  <view style="margin-top:55rpx"></view>
+  <view class="{{scrollTop>500 ? 'bgfff': 'bgshow'}}">
+  <view class="{{scrollTop>75 ? 'showFiexd' : 'showAbsolute'}}">
+    <input type="text" class="Stop" placeholder="搜索"></input>
+  </view>
+  </view>
+</view>
+  <!-- 轮播图 -->
+ <view style="margin-top:20rpx;">
+   <swiper indicator-dots="{{indicatordots}}"
+           indicator-active-color="{{indiactorColor}}"
+           interval="{{interval}}"
+           autoplay="{{autoplay}}"
+           circular="true"
+           style="height:500rpx;width:100%;">
+     <block wx:for="{{homeImg}}" wx:key="{{index}}">
+       <swiper-item>
+         <image src="{{item.img}}" style="width:100%;height:500rpx;"></image>
+       </swiper-item>
+     </block>
+   </swiper>
+ </view>
+<!-- 商品分类 -->
+<view class="wvod">
+  <view wx:for="{{homenav}}" wx:key="{{index}}" bindtap="prlist">
+   <image src="{{item.img}}"></image>
+   <text>{{item.text1}}</text>
+  </view>
+</view> 
+<!-- 四字图 -->
+<view class="lhpb">
+  <view wx:for="{{homeping}}" wx:key="{{index}}">
+  <image src="{{item.img}}"></image>
+  </view>
+</view>
+<!-- 横向滑动 -->
+<!-- <view class="slider" > -->
+<!-- <view class="{{scrollTop>530 ? 'topnavFixed' : 'topnavAbsolute'}}" >
+  <view class="slide_son">
+    <text>热门</text>
+    <text class="jvxg">|</text>
+    <text>新品</text>
+      <text class="jvxg">|</text>
+    <text>合辑</text>
+      <text class="jvxg">|</text>
+    <text>全部</text>
+      <text class="jvxg">|</text>
+    <text>原装试管</text>
+  </view>
+  </view> -->
+ <van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="推荐">
+  <view class="uthlist">
+  <view class="mwpw" wx:for="{{homeslide}}" wx:key="{{index}}"  catchtap='siftTap' data-sifttapid="{{item.id}}">
+    <image class="utimg" src="{{item.img}}"></image>
+    <view class="shandian">
+    <text class="font20">{{item.title}}</text>
+    </view>
+    <view style="height:50rpx;">
+   
+    </view>
+    <view class="mwpwbottom">
+      <text class="font20 colororange">¥{{item.price}}-{{item.price1}}</text>
+      <text class="font20">已售{{item.yishow}}</text>
+    </view>
+  </view>
+</view>
+  </van-tab>
+  <van-tab title="热门">
+  <view class="uthlist">
+  <view class="mwpw" wx:for="{{homeslideB}}" wx:key="{{index}}"  catchtap='siftTap' data-sifttapid="{{item.id}}">
+    <image class="utimg" src="{{item.img}}"></image>
+    <view class="shandian">
+    <text class="font20">{{item.title}}</text>
+    </view>
+    <view style="height:50rpx;">
+    </view>
+    <view class="mwpwbottom">
+      <text class="font20 colororange">¥{{item.price}}-{{item.price1}}</text>
+      <text class="font20">已售{{item.yishow}}</text>
+    </view>
+  </view>
+</view>
+  </van-tab>
+  <van-tab title="新品">
+<view class="uthlist">
+  <view class="mwpw" wx:for="{{homeslideC}}" wx:key="{{index}}" catchtap='siftTap' data-sifttapid="{{item.id}}">
+    <image class="utimg" src="{{item.img}}"></image>
+    <view class="shandian">
+    <text class="font20">{{item.title}}</text>
+    </view>
+    <view style="height:50rpx;">
+    </view>
+    <view class="mwpwbottom">
+      <text class="font20 colororange">¥{{item.price}}-{{item.price1}}</text>
+      <text class="font20">已售{{item.yishow}}</text>
+    </view>
+  </view>
+</view>
+  </van-tab>
+</van-tabs>
+
+<!-- 首页商品列表 -->
+
+
+
+
+
+
+
+
+
+
+
+</view>

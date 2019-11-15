@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+      "van-icon": "vant-weapp/icon/index",
+      "van-rate": "vant-weapp/rate/index",
+      "van-tab": "vant-weapp/tab/index",
+      "van-tabs": "vant-weapp/tabs/index",
+      "van-goods-action": "vant-weapp/goods-action/index",
+      "van-goods-action-icon": "vant-weapp/goods-action-icon/index",
+      "van-goods-action-button": "vant-weapp/goods-action-button/index",
+      "van-action-sheet": "vant-weapp/action-sheet/index",
+      "van-stepper": "vant-weapp/stepper/index"
+  }
+}

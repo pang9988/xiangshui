@@ -1,0 +1,320 @@
+page {
+  background-color: #f1f1f3;
+  height: 100%;
+} 
+/*轮播图*/
+.detailTop{
+  background: #fff;
+}
+.homeCar1{
+    width: 100%;
+    min-height: 750rpx;
+  }
+  .homeCar1 image{
+    width: 100%;
+    height: 100%;
+  }
+/*价格/标题/规格*/
+  .detailPrice{
+    margin-top: 15rpx;
+    padding-left:10rpx; 
+  }
+  .detailPrice text{
+    color: #d7002a;
+  }
+  .detailPrice text:first-child{
+    font-size: 30rpx;
+  }
+
+  .detailTitle{
+    font-size: 35rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20rpx;
+  }
+  .detailCount{
+    font-size: 25rpx;
+    text-align: right;
+    color: #a0a0a1;
+    padding:5rpx 15rpx; 
+  }
+
+  .detailguige{
+    display: flex;
+    justify-content: space-between;
+    padding: 30rpx 20rpx;
+  }
+  .detailguige view{
+    font-size: 30rpx;
+    color: #a0a0a1;
+  }
+
+  /*商品评价*/
+  .detailEvaBg{
+    background: #fff;
+    padding:15rpx;
+    margin-top: 17rpx;
+  }
+  .EvaTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .EvaTitle text{
+    font-size: 28rpx;
+  }
+  .EvaTitleLeft{
+    font-size: 28rpx;
+    padding-left:10rpx;
+    border-left: 8rpx solid #000; 
+  }
+  .EvaIcon{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+  }
+  .EvaIcon2{
+    margin-top: 10rpx !important;
+  }
+
+  /*评价列表*/
+  .EvaBg{
+    padding:0 20rpx;
+    margin-top: 20rpx; 
+  }
+  .EvaList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .EvaListImg{
+    display: flex;
+    align-items: center;
+  }
+  .EvaListImg image{
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50%;
+  }
+  .EvaListImg text{
+    font-size: 28rpx;
+    color: #a0a0a1;
+    margin-left: 10rpx;
+  }
+  .evaContent{
+    margin-top:15rpx; 
+    font-size: 30rpx;
+  }
+
+  /*为你推荐*/
+  .forYouBg{
+    padding: 15rpx;
+    background: #fff;
+    margin-top: 17rpx;
+  }
+  .forYouTitle{
+    font-size:28rpx;
+    padding-left:10rpx;
+    border-left:8rpx solid #000;
+  }
+
+
+  /*推荐列表*/
+  .jBgFor{
+    margin-top:20rpx; 
+  }
+  .homeCar2{
+    min-height: 350rpx;
+  }
+  .jBelow{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #fff;
+  }
+  .jBelowList{
+    width:30%;
+    position: relative;
+    padding-bottom:20rpx; 
+  }
+  .jBelowListImg{
+    width: 100%;
+    height: 220rpx;
+    border-radius: 10rpx;
+  }
+  .jBelowListImgFor{
+     height: 200rpx;
+  }
+  .jBelowListImg image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10rpx;
+  }
+
+  .jBelowV{
+    font-size: 26rpx;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 6rpx;
+    margin-top:10rpx;
+  }
+  .jBelowT{
+    font-size: 25rpx;
+    padding: 0 6rpx;
+    color: #d7002a;
+  }
+
+  /*图文详情*/
+  .imgTextBg{
+    margin-top: 17rpx;
+  }
+  
+  .imgTextimgview{
+    height: 100%;
+  }
+  .imgTextimg{
+    width:100%;
+    display: block;
+    height: 800rpx;
+  }
+  .imgTextimg3{
+    width:100%;
+    height: 1622rpx;
+    display: block;
+  }
+  .imgTextGui{
+  
+    min-height: 800rpx;
+    margin-top: 20rpx;
+  }
+  .imgTextGui>view{
+    padding-left:100rpx; 
+  }
+  .imgTextGui>view text:first-child{
+    font-weight: 600;
+  }
+  .ppImg{
+    width: 100%;
+    height: 1700rpx;
+  }
+  .dUheight{
+    height: 100rpx;
+  }
+  .van-tab__pane{
+    margin-top: 10rpx;
+  }
+  /* 底部按钮 */
+  .van-button--warning{
+    background: -webkit-linear-gradient(305deg,#10090f,#212121) !important;
+    border: none !important;
+  }
+  .van-button--danger{
+    background: #e9103a !important;
+    border: none !important;
+  }
+  .detailBmBtn{
+    z-index: 99;
+  }
+  .van-info{
+    background: #e9103a !important;
+  }
+
+  /* 规格提示框 */
+  .guiGeAll{
+    /* min-height: 600rpx; */
+    padding: 20rpx 15rpx 5rpx 13rpx; 
+  }
+  .guiGeList{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .guiGeListLeft{
+    display: flex;
+    width: 70%;
+  }
+  .guiGeListLeftImg{
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 10rpx;
+    border: 1px solid #ddd;
+  }
+  .guiGeListLeftImg image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10rpx;
+  }
+  .guiGeErr{
+    text-align: right;
+    width: 30%;
+  }
+  .guiGePrice{
+    margin-top:75rpx;
+    margin-left: 20rpx; 
+  }
+  .guiGePrice text{
+    color: #d7002a;
+    font-size: 40rpx;
+  }
+  .guiGePrice text:first-child{
+    font-size: 30rpx;
+  }
+  .guiGePrice view{
+    font-size: 28rpx;
+    margin-top: 10rpx;
+  }
+
+  .guiGeColor{
+    margin-top: 20rpx;
+  }
+  .guiGeColor>view{
+    font-size: 28rpx;
+    color: #000;
+  }
+  .guiGeColorList{
+    display: flex;
+    margin-top: 10rpx;
+  }
+  .guiGeColorList button{
+    margin: 0;
+    margin-right:20rpx;
+    font-size:20rpx;
+    border-radius: 50rpx;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .guiGeCount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2rpx solid #ddd;
+    margin-top:30rpx;
+    padding: 20rpx 0; 
+  }
+  .guiGeCount view{
+    font-size: 30rpx;
+  }
+
+  .guiGeCountInp{
+    background: transparent !important;
+    color: #d7002a!important;
+  }
+
+  .guiGeEndBut{
+    display: flex;
+    justify-content:center;
+  }
+  .guiGeEndBut button{
+    width: 50%;
+    background: #d7002a;
+    border-radius:0 5rpx 5rpx 0;
+    color: #fff; 
+  }
+  .guiGeEndBut button:first-child{
+    background: -webkit-linear-gradient(305deg,#10090f,#212121);
+    border-radius:5rpx 0rpx 0rpx 5rpx; 
+  }

@@ -1,0 +1,83 @@
+<!-- 用户信息 -->
+<view class='topBg'>
+  <view class='topUser'>
+    <view class='userIcon'>
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class='userName'>
+      <open-data type="userNickName" class="profileName"></open-data>
+    </view>
+  </view>
+<!-- 优惠券/我喜欢 -->
+  <view class='couPon'>
+      <view>
+        <view>0</view>
+        <view class='couPonT1'>优惠券</view>
+      </view>
+      <view>
+        <view>1</view>
+        <view  class='couPonT1'>我喜欢</view>
+      </view>
+  </view>
+<!-- 我的订单 -->
+  <view class='myCart'>
+    <view class='mymyCart'>
+      <view>我的订单</view>
+      <van-icon name="arrow" color='#a0a0a1' size='40rpx;' />
+    </view>
+    <view class='myCartList'>
+      <view>
+        <van-icon name="paid" size='65rpx;' color='#5a5757' />
+        <view>待付款</view>
+      </view>
+      
+      <view>
+        <van-icon name="tosend"  size='65rpx;' color='#5a5757'/>
+        <view>待发货</view>
+      </view>
+      
+      <view>
+        <van-icon name="logistics" size='65rpx;' color='#5a5757'/>
+        <view>待收货</view>
+      </view>
+      
+      <view>
+        <van-icon name="comment-o" size='65rpx;' color='#5a5757'/>
+        <view>待评价</view>
+      </view>
+      
+      <view>
+        <van-icon name="after-sale" size='65rpx;' color='#5a5757'/>
+        <view>退款/售后</view>
+      </view>
+      
+    </view>
+  </view>
+</view>
+
+<view class='endBg'>
+  <view class='endEmpty'></view>
+  <view class='endList'>
+    <view>
+      <view>收货地址</view>
+      <van-icon name="arrow" color='#a0a0a1' size='40rpx;' />
+    </view>
+    <view>
+      <view>在线客服</view>
+      <van-icon name="arrow" color='#a0a0a1' size='40rpx;' />
+    </view>
+    <view>
+      <view>关注我们</view>
+      <van-icon name="arrow" color='#a0a0a1' size='40rpx;' />
+    </view>
+    <view>
+      <view>意见反馈</view>
+      <van-icon name="arrow" color='#a0a0a1' size='40rpx;' />
+    </view>
+    <view>
+      <view>退出</view>
+      <van-icon name="arrow" color='#a0a0a1' size='40rpx;' />
+    </view>
+  </view>
+</view>
+

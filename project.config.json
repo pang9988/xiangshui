@@ -1,0 +1,100 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.5",
+	"appid": "wx256712d9c3d249a1",
+	"projectname": "xiaopang",
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"cloudfunctionTemplateRoot": "",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "pages/classify/classify1",
+					"pathName": "pages/classify/classify1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/home/home1",
+					"pathName": "pages/home/home1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/prlist/prlist",
+					"pathName": "pages/prlist/prlist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/shop/shop1",
+					"pathName": "pages/shop/shop1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/deye/deye",
+					"pathName": "pages/deye/deye",
+					"scene": null
+				}
+			]
+		}
+	}
+}

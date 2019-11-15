@@ -1,0 +1,129 @@
+<!--轮播图-->
+<view class='detailTop'> 
+  <swiper autoplay='true'  circular='true' class='homeCar1' interval="3500"  indicator-dots="true">
+    <swiper-item wx:for="{{deyeData.cImg}}" wx:key="{{index}}">
+      <image src='{{item.img}}'></image>
+    </swiper-item>
+  </swiper>
+  <!-- 价格/规格/数量 -->
+  <view class='detailPrice'>
+    <text>￥</text>
+    <text>{{deyeData.price}}</text>
+  </view>
+  <view class='detailTitle'>{{deyeData.title}}</view>
+  <view class='detailCount'>已售{{deyeData.yishow}}份</view>
+  <view class='detailguige' bindtap='isShow'>
+    <view>选择</view>
+    <van-icon name="arrow" color='#a0a0a1' size='40rpx;' />
+  </view>
+</view>
+
+<!-- 商品评价 -->
+<view class='detailEvaBg'>
+  <view class='EvaTitle'>
+    <view class='EvaTitleLeft'>商品评价(2)</view>
+    <view class='EvaIcon'>
+      <text>好评率100%</text>
+      <van-icon name="arrow" color='#a0a0a1' size='40rpx;' custom-class="EvaIcon2"/>
+    </view>
+  </view>
+
+  <view class='EvaBg' wx:for="{{plAll}}" wx:key="index">
+    <view class='EvaList'>
+      <view class='EvaListImg'>
+        <image src='cloud://nba.6e62-nba/comment/evaluate1.jpg'></image>
+        <text>{{item.name}}</text>
+      </view>
+      <view>
+        <van-rate value="{{ xingxingValue }}"  color="#d7002a" size="15" disabled="true" disabled-color="#d7002a"/>
+      </view>
+    </view>
+
+    <view class='evaContent'>{{item.content}}</view>
+  </view>
+  
+</view>
+<!-- 图文详情 -->
+<view style="width:100%">
+  <view >
+<view style="height:90rpx;line-height:90rpx; background:#fff;">商品详情</view>
+    <image src="{{item.img}}" wx:for="{{deyeData.tImg}}" wx:key="{{index}}" style="height:500rpx;width:100%;"></image>
+  </view>
+</view>
+<!-- 更多推荐 -->
+<view style="height:70rpx;line-height:70rpx; background:#fff">更多推荐</view>
+ <view class="uthlist">
+  <view class="mwpw" wx:for="{{deyetui}}" wx:key="{{index}}" catchtap='siftTap' data-sifttapid="{{item.id}}">
+    <image class="utimg" src="{{item.img}}"></image>
+    <view class="shandian">
+    <text class="font20">{{item.title}}</text>
+    </view>
+    <view style="height:50rpx;">
+    </view>
+    <view class="mwpwbottom">
+      <text class="font20 colororange">¥{{item.price}}-{{item.price1}}</text>
+      <text class="font20">已售{{item.yishow}}</text>
+    </view>
+  </view>
+</view>
+<view style="height:150rpx; background:#fff;text-align:center">-----我也是有底线的小人儿------</view>
+<!-- 底部按钮 -->
+<view style="margin-top:100rpx"></view>
+<view>
+  <van-goods-action custom-class="detailBmBtn">
+    <van-goods-action-icon icon="chat-o" text="客服" icon-class="detailKeFu" bindtap='detaBuy' />
+    <van-goods-action-icon icon="star-o" text="收藏" bindtap='detaBuy' />
+    <van-goods-action-icon icon="cart-o" text="购物车"  info="{{cartAllCount}}" bindtap='skipCart'/>
+    <van-goods-action-button text="加入购物车" type="warning" bindtap='guiGeCar'/>
+    <van-goods-action-button text="立即购买" bindtap='detaBuy' />
+  </van-goods-action>
+</view>
+<!-- 规格选择器 -->
+<van-action-sheet show="{{ guiGeShow }}" overlay="true" close-on-click-overlay="true">
+  <view class='guiGeAll'>
+    <view class='guiGeList'>
+      <view class='guiGeListLeft'>
+        <view class='guiGeListLeftImg'>
+          <image src='{{detailsData.cImg[0].img}}'></image>
+        </view>
+        <view class='guiGePrice'>
+          <text>￥</text>
+          <text>{{detailsData.price}}</text>
+          <view>{{qingxuanze}} {{qingSize}} {{qingColor}}</view>
+        </view>
+      </view>
+      <view class='guiGeErr'>
+        <van-icon name="cross" bindtap='guiGeErrsj' color='#a0a0a1' size='50rpx;'/>
+      </view>
+    </view>
+
+    <view class='guiGeColor' wx:if="{{guiGeColor.length>0}}">
+      <view>颜色</view>
+      <view class='guiGeColorList'>
+        <button wx:for="{{guiGeColor}}" style='background:{{item.bg}};color:{{item.color}}' bindtap='guiGeColorsj' wx:key="index" data-guigecolordata='{{index}}'>{{item.cr}}</button>
+        
+      </view>
+    </view>
+
+    <view class='guiGeColor' wx:if="{{guiGeSize.length>0}}">
+      <view>尺码</view>
+      <view class='guiGeColorList'>
+        <button wx:for="{{guiGeSize}}" style='background:{{item.bg}};color:{{item.color}}' bindtap='guiGeSizesj' wx:key="index" data-guigesizedata='{{index}}'>{{item.gg}}</button>
+        
+      </view>
+    </view>
+
+    <view class='guiGeCount'>
+      <view>数量</view>
+      <van-stepper value="{{ guiGecountValue }}" bind:change="guiGeCountsj" input-class="guiGeCountInp" disable-input="true"/>
+    </view>
+
+    <view class='guiGeEndBut'>
+      <button bindtap='guiGeCar'>加入购物车</button>
+      <button bindtap='detaBuy'>立即购买</button>
+    </view>
+  </view>
+</van-action-sheet>
+
+
+

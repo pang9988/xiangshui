@@ -1,0 +1,6 @@
+<!--pages/shop/shop1.wxml-->
+<text>pages/shop/shop1.wxml</text>
+<text>云数据库</text>
+<view bindtap="insert">添加数据</view>
+<view bindtap="del">删除数据</view>
+<view bindtap="sesect">查询数据</view>

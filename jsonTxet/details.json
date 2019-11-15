@@ -1,0 +1,667 @@
+{
+  "_id": 1,
+  "title": "试香 圣罗兰 黑鸦片 YSL Yves Saint neic",
+  "price": 5,
+  "price1": 99,
+  "yishow": 23660,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/0.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u00.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u00a.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+
+{
+  "_id": 2,
+  "title": "试香 芦丹氏 柏林少女 YSL Yves Saint neic",
+  "price": 7,
+  "price1": 39,
+  "yishow": 23660,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/1.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u01.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u01a.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+{
+  "_id": 3,
+  "title": "试香 宝格丽 大吉岭茶 YSL Yves Saint neic",
+  "price": 5,
+  "price1": 96,
+  "yishow": 2760,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/2.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u02.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u02a.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+{
+  "_id": 4,
+  "title": "试香 迷倒夫娘婆 YSL Yves Saint neic",
+  "price": 6,
+  "price1": 99,
+  "yishow": 2880,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/3.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u03.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+{
+  "_id": 5,
+  "title": "试香 迷倒夫娘婆 YSL Yves Saint neic",
+  "price": 6,
+  "price1": 99,
+  "yishow": 2880,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/4.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u04.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+{
+  "_id": 6,
+  "title": "试香 迷倒夫娘婆 YSL Yves Saint neic",
+  "price": 6,
+  "price1": 95,
+  "yishow": 2880,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/5.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u05.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+
+
+
+
+
+{
+  "_id": 7,
+  "title": "试香 倾诚那良村少女 YSL Yves Saint neic",
+  "price": 4,
+  "price1": 49,
+  "yishow": 26620,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/6.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u06.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u06a.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+{
+  "_id": 8,
+  "title": "试香 阿蒂仙 冥府之路 YSL Yves Saint neic",
+  "price": 10,
+  "price1": 22,
+  "yishow": 22660,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/7.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u07.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+
+
+
+{
+  "_id": 9,
+  "title": "试香 一片廉江美少女 YSL Yves Saint neic",
+  "price": 3,
+  "price1": 29,
+  "yishow": 26608,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u08.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+
+
+{
+  "_id": 10,
+  "title": "试香 一生一世只爱你一个 YSL Yves Saint neic",
+  "price": 2,
+  "price1": 59,
+  "yishow": 26010,
+  "guige": [
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/9.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u09.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+{
+  "_id": 11,
+  "title": "试香 贡品之美 YSL Yves Saint neic",
+  "price": 2,
+  "price1": 22,
+  "yishow": 26610,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/1.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u01a.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u01.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+
+
+{
+  "_id": 12,
+  "title": "试香 无法自拔 YSL Yves Saint neic",
+  "price": 2,
+  "price1": 46,
+  "yishow": 26010,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/2.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u02.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u02a.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+{
+  "_id": 13,
+  "title": "试香 无人区玫瑰 YSL Yves Saint neic",
+  "price": 5,
+  "price1": 46,
+  "yishow": 16610,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/3.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u03.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+
+
+{
+  "_id": 14,
+  "title": "试香 极爽玫瑰 YSL Yves Saint neic",
+  "price": 3,
+  "price1": 48,
+  "yishow": 16610,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/4.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u04.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+
+
+{
+  "_id": 15,
+  "title": "试香 贡品之美 YSL Yves Saint neic",
+  "price": 5,
+  "price1": 50,
+  "yishow": 26619,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/5.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u05.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+
+
+{
+  "_id": 16,
+  "title": "试香 沉默是金 YSL Yves Saint neic",
+  "price": 3,
+  "price1": 88,
+  "yishow": 6610,
+  "guige": [
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/6.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u06.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u06a.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+
+
+
+{
+  "_id": 17,
+  "title": "试香 廉江佬之爱美 YSL Yves Saint neic",
+  "price": 4,
+  "price1": 46,
+  "yishow": 9610,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "0.5ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/7.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u07.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
+{
+  "_id": 18,
+  "title": "试香 贡品之美 YSL Yves Saint neic",
+  "price": 5,
+  "price1": 49,
+  "yishow": 1610,
+  "guige": [
+    {
+      "gg": "3ml"
+    },
+    {
+      "gg": "2ml"
+    },
+    {
+      "gg": "1ml"
+    }
+  ],
+  "allImg": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/ShowProductA/8.jpg",
+  "cImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/lubo/u08.jpg"
+    }
+  ],
+  "tImg": [
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/111.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/222.jpg"
+    },
+    {
+      "img": "cloud://xiaopang-mejvu.7869-xiaopang-mejvu-1300634657/details/xiangqing/333.jpg"
+    }
+  ]
+}
